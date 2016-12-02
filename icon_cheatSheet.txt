@@ -1,0 +1,7 @@
+Home: Shelter
+
+Alert: Safety
+
+Info: Additional Tips
+
+Help: Contact Us
