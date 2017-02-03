@@ -12,7 +12,7 @@ li.title{font-size:36px; font-weight:bold; text-align: center; width: 100%; heig
 a.button{font-size: 20px}
 .nav{height: 100%; width: 100%}
 #main{background-color:#219155; width: 100%; height: 100%; white-space: pre-line; padding: 10px; padding-top: 160px; font-family: quicksand}
-#container{max-width: 1000px; margin-top: 20px; margin-left: auto; margin-bottom: 20px; margin-right: auto;}
+#container{max-width: 1000px; min-width: 666px; margin-top: 20px; margin-left: auto; margin-bottom: 20px; margin-right: auto;}
 /*.border{border: 2px solid #DDD}*/
 .nav ul{float: left}
 .nav ul li{line-height: 70px}
