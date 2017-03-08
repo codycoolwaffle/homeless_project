@@ -61,7 +61,7 @@
           //alert (qq[i]);
           namevalue = qq[i].split('=');
           //alert(namevalue);
-          document.getElementsByName(namevalue[0])[0].value = 
+          document.getElementsByName(namevalue[0])[0]
               namevalue[1];
           if (namevalue[0] == "name") {
               alert ("Thank you, " + namevalue[1].replace(/\+/g, " ") + ", for contacting us.")
