@@ -38,12 +38,12 @@
 				C 19 3.5 15.5 3.25 14.5 3.25
 				C 10.75 3.25 7.5 6 7.5 10
 				C 7.5 14 10.5 16.5 14.5 18'
-				fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125)' stroke-linejoin='round' stroke-linecap='round'/>
+				fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125)' stroke-linejoin='round' stroke-linecap='round' />
 			<path d='M 21.5 6
 				C 19 3.5 15.5 3.25 14.5 3.25
 				C 10.75 3.25 7.5 6 7.5 10
 				C 7.5 14 10.5 16.5 14.5 18'
-			fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125) rotate(180 14.5 18)' stroke-linejoin='round' stroke-linecap='round'/>
+			fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125) rotate(180 14.5 18)' stroke-linejoin='round' stroke-linecap='round' />
 		</g>
 		 
 		 <!--  S  -->
@@ -52,12 +52,12 @@
 				C 19 3.5 15.5 3.25 14.5 3.25
 				C 10.75 3.25 7.5 6 7.5 10
 				C 7.5 14 10.5 16.5 14.5 18'
-				fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125)' stroke-linejoin='round' stroke-linecap='round'/>
+				fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125)' stroke-linejoin='round' stroke-linecap='round' />
 			<path d='M 21.5 6
 				C 19 3.5 15.5 3.25 14.5 3.25
 				C 10.75 3.25 7.5 6 7.5 10
 				C 7.5 14 10.5 16.5 14.5 18'
-				fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125) rotate(180 14.5 18)' stroke-linejoin='round'stroke-linecap='round'/>
+				fill='none' stroke='#d941f4' stroke-width='2px' transform='scale(0.07142857143 0.06779661017) translate(-7.375 -3.125) rotate(180 14.5 18)' stroke-linejoin='round' stroke-linecap='round' />
 		</g>
 	 </g>
 </svg>
