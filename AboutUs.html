@@ -1,82 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Contact Us</title>
-    <meta charset='utf-8' />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="homelessStyle.css" />
-    </head>
-
-    <body class="no-margin">
-    	<div id="container">
-        	<div id="header">
-			<div class="logo no-margin">
-			<figure class="no-margin logo">
-				<div>
-					<a href='index.html'><div class="bg-svg"></div></a>
+	<head>
+		<title>Contact Us</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="homelessStyle.css" />
+	</head>
+	
+	<body class="no-margin">
+		<div id="container">
+			<div id="header">
+				<div class="logo no-margin">
+					<figure class="no-margin logo">
+						<div>
+							<a href="index.html"><div class="bg-svg"></div></a>
+						</div>
+					</figure>
 				</div>
-			</figure>
+				<div class="nav-whole no-margin border">
+					<div class="nav border">
+						<ul class="buttons no-margin no-padding">
+							<li class="title"><a href="index.html">Homeless Survival</a></li>
+							<a class="button" href="index.html"><li>Home</li></a>
+							<a class="button line" href="Homeless.html"><li>Advice</li></a>
+							<a class="button line" href="HomelessResources.html"><li>Resources</li></a>
+							<a class="button line active" href="AboutUs.html"><li>Contact Us</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div id="main">
+				<h1>Contact Us</h1>
+				<!-- page content will go here -->
+				<form action="AboutUs.html" method="GET">
+					<label>Your Name:</label>
+					<input type="text" size="30" name="name"/><br />
+					<label>Your Email:</label>
+					<input type="text" size="30" name="email"/><br />
+					<label>Your message:</label>
+					<input type="text" size="30" name="phone"/><br />
+					<label><p><input type="submit" value="Send Message" /></p></label>
+				</form>
+				
+				<script type="text/javascript">
+					var q = (document.location.search.substr(1));
+					var qq = q.split("&");
+					for (var i = 0; i < qq.length; i++) 
+					{
+						namevalue = qq[i].split("=");
+						document.getElementsByName(namevalue[0])[0]
+						namevalue[1];
+						if (namevalue[0] == "name") 
+						{
+							alert ("Thank you, " + namevalue[1].replace(/\+/g, " ") + ", for contacting us.")
+						}
+					} 
+				</script>
+			</div>
 		</div>
-                <div class="nav-whole no-margin border">
-                    <div class="nav border">
-                    	<ul class="buttons no-margin no-padding">
-                        	<li class="title"><a href="index.html">Homeless Survival</a></li>
-                        	<a class="button" href="index.html"><li>Home</li></a>
-                         	<a class="button line" href="Homeless.html"><li>Advice</li></a>
-                         	<a class="button line" href="HomelessResources.html"><li>Resources</li></a>
-                         	<a class="button line active" href="AboutUs.html"><li>Contact Us</li></a>
-                        </ul>
-                    </div>
-            	</div>
-            </div>
-            
-            
-            <div id="main">
-                <h1>Contact Us</h1>
-  <!-- page content will go here -->
-    <form action='AboutUs.html' method='GET'>
-    
-    <label>Your Name:</label>
-    <input type='text' size='30' name='name'/>
-    <br />
-        
-    <label>Your Email:</label>
-    <input type='text' size='30' name='email'/>
-    <br />
-        
-    <label>Your message:</label>
-    <input type='text' size='30' name='phone'/>
-    <br />
-        
-        <label><p><input type='submit' value='Send Message' /></p></label>
-    <br />
-    </form>
-
-  <script type='text/javascript'>
-  // scripts will go here
-
-//file:///Users/student/Desktop/Mobile%20App%20Design:Comp%20Coding/forms.html?name=A&email=B&phone=C&city=San+Jose
-      
-      var q = (document.location.search.substr(1));
-      var qq = q.split('&');
-      //alert(qq[0]);
-      for (var i = 0; i < qq.length; i++) {
-          //alert (qq[i]);
-          namevalue = qq[i].split('=');
-          //alert(namevalue);
-          document.getElementsByName(namevalue[0])[0]
-              namevalue[1];
-          if (namevalue[0] == "name") {
-              alert ("Thank you, " + namevalue[1].replace(/\+/g, " ") + ", for contacting us.")
-          }
-      } 
-      
-  </script>
-            </div>
-        </div>
-        
-            
-    </body>
-            
+	</body>
 </html>
