@@ -12,7 +12,7 @@ div.logo{width:25%; display: inline-block; margin-top: auto; margin-bottom: auto
 li.title{font-size:36px; font-weight:bold; text-align: center; width: 100%; height: 100%}
 a.button{font-size: 20px}
 .nav{height: 100%; width: 100%}
-#main{background-color:#219155; width: 100%; height: 100%; white-space: pre-line; padding: 10px; padding-top: 160px; font-family: quicksand}
+#main{background-color:#219155; width: 100%; height: 100%; white-space: pre-line; padding:30px; padding-top: 150px; padding-bottom:0px; font-family: quicksand}
 #container{max-width: 1000px; min-width: 666px; margin-top: 20px; margin-left: auto; margin-bottom: 20px; margin-right: auto;}
 /*.border{border: 2px solid #DDD}*/
 .nav ul{float: left}
@@ -28,6 +28,10 @@ a.button{font-size: 20px}
 .line{margin-left: 5px}
 a{text-decoration: none; color: darkturquoise}
 figure.logo{margin-top: 11.67px}
+#main li{list-style-type: none; margin-bottom: -8px}
+#main p{margin-bottom: -32px; font-size: 20px}
+#main h1, #main h3{margin-bottom: -8px}
+h3{font-size: 28px}
 
 @media (max-width: 1008px){
 	#container{margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px}
