@@ -17,7 +17,7 @@ a.button{font-size: 20px}
 /*.border{border: 2px solid #DDD}*/
 .nav ul{float: left}
 .nav ul li{line-height: 70px}
-.nav ul a.button{width: 32%; height: 50%; float: left; list-style-type: none; text-align: center; text-decoration:none; background-color: #0F773F}
+.nav ul a.button{width: 24%; height: 50%; float: left; list-style-type: none; text-align: center; text-decoration:none; background-color: #0F773F}
 .nav ul a.button:hover{background-color: #005724}
 .nav ul a.button.active{background-color: #916102}
 .nav ul a.button li{height: 100%; text-align: center; color: #000; margin-bottom: auto}
