@@ -34,6 +34,6 @@ figure.logo{margin-top: 11.67px}
 h3{font-size: 28px}
 ul{margin-top: 0px}
 
-@media (max-width: 1008px){
+@media (max-width: 1015px){
 	#container{margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px}
 }
