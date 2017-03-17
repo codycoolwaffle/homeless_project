@@ -36,6 +36,7 @@ ul{margin-top: 0px}
 div.subnav{float: right; background-color: #127640; display: flex; text-align: right; width: 100%; border-top: solid 3px #bc7f05; padding: 10px}
 div.subnav figure{width: 4%; margin: 0px}
 div.subnav figure a img{width: 100%}
+form{padding-left: 20px}
 
 @media (max-width: 1008px){
 	#container{margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px}
