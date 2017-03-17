@@ -2,6 +2,6 @@
   viewbox='0 0 240 240'
   xmlns:xlink= "http://www.w3.org/1999/xlink">
 <!-- the shapes and stuff will go here -->
-<circle cx='120' cy='120' r='110' fill='none' stroke='black' stroke-width='10'/>
-<text x='115' y='200' fill='black' font-size='240' text-anchor='middle'>!</text>
+<circle cx='120' cy='120' r='110' fill='none' stroke='#bc7f05' stroke-width='10'/>
+<text x='115' y='200' fill='#bc7f05' font-size='240' text-anchor='middle'>!</text>
 </svg>
