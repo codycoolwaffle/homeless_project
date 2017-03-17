@@ -12,7 +12,7 @@ div.logo{width:25%; display: inline-block; margin-top: auto; margin-bottom: auto
 li.title{font-size:36px; font-weight:bold; text-align: center; width: 100%; height: 100%}
 a.button{font-size: 20px}
 .nav{height: 100%; width: 100%}
-#main{background-color:#249056; width: 100%; height: 100%; white-space: pre-line; padding:30px; padding-top: 150px; padding-bottom:0px; font-family: quicksand}
+#main{background-color:#249056; width: 100%; height: 100%; white-space: pre-line; padding:50px; padding-top: 150px; padding-bottom:0px; font-family: quicksand}
 #container{max-width: 1000px; min-width: 666px; margin-top: 20px; margin-left: auto; margin-bottom: 20px; margin-right: auto;}
 /*.border{border: 2px solid #DDD}*/
 .nav ul{float: left}
@@ -33,7 +33,7 @@ figure.logo{margin-top: 11.67px}
 #main h1, #main h3{margin-bottom: -8px}
 h3{font-size: 28px}
 ul{margin-top: 0px}
-div.subnav{float: right; background-color: #127640; display: flex; text-align: right; width: 100%; border-top: solid 3px #bc7f05}
+div.subnav{float: right; background-color: #127640; display: flex; text-align: right; width: 100%; border-top: solid 3px #bc7f05; padding: 10px}
 div.subnav figure{width: 4%; margin: 0px}
 div.subnav figure a img{width: 100%}
 
