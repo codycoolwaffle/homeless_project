@@ -43,21 +43,6 @@
 					<textarea name="phone" cols="40" rows="5"></textarea>
 					<label><p><input type="submit" value="Send Message" /></p></label>
 				</form>
-				
-				<script type="text/javascript">
-					var q = (document.location.search.substr(1));
-					var qq = q.split("&");
-					for (var i = 0; i < qq.length; i++) 
-					{
-						namevalue = qq[i].split("=");
-						document.getElementsByName(namevalue[0])[0]
-						namevalue[1];
-						if (namevalue[0] == "name") 
-						{
-							alert ("Thank you, " + namevalue[1].replace(/\+/g, " ") + ", for contacting us.")
-						}
-					} 
-				</script>
 			</div>
 			
 			<div class="subnav">
@@ -75,5 +60,23 @@
 				</figure>
 			</div>
 		</div>
+				
+		<script type="text/javascript">
+			var q = (document.location.search.substr(1));
+			var qq = q.split("&");
+			for (var i = 0; i < qq.length; i++) 
+			{
+				namevalue = qq[i].split("=");
+				if(i < qq.length-1)
+					document.getElementByTagName("input")[i].value = namevalue[1]
+				else
+					document.getElementByTagName("textarea")[i] = namevalue[1]
+				
+				if (namevalue[0] == "name" && namevalue[1] > 0) 
+				{
+					alert ("Thank you, " + namevalue[1].replace(/\+/g, " ") + ", for contacting us.");
+				}
+			} 
+		</script>
 	</body>
 </html>
