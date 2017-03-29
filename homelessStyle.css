@@ -41,3 +41,8 @@ form{padding-left: 20px}
 @media (max-width: 1008px){
 	#container{margin-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px}
 }
+
+#fortune {background-color: #005F2C; color: #bc7f05;
+      padding: 1em;
+      width: 60%;
+      margin-left: 20px;}

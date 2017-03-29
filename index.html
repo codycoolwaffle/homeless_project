@@ -35,8 +35,10 @@
 				<p>This website intends to serve as a useful tool for homeless people themselves. It provides advice for the homeless like tips on how to survive in a cold night and a link to a directory for homeless shelters. We also provide tips for ways to stay healthy.</p>
 				
 				
-				<h3>What is the Homeless Directory</h3>
+				<h3>What is the Homeless Directory?</h3>
 				<p>The Homeless Shelter Directory provides Homeless Shelters and Homeless Service Organizations. The directory was created for people who want to find and donate food and/or supplies to their local shelter.</p>
+                
+                <p id='fortune'>Your randomly generated homeless fact will go here.</p>
 				
 				
 				<h3>This website was created by:</h3>
@@ -59,5 +61,29 @@
 				</figure>
 			</div>
 		</div>
+        
+        <script type='text/javascript'>
+  // scripts will go here. "FACT: .",
+var fortunes = [
+    "FACT: In January 2015, 564,708 people were homeless on a given night in the United States.",
+    "FACT: About 15 percent of the homeless population - 83,170 - are considered chronically homeless individuals.",
+    "FACT: About 8 percent of homeless people are veterans.",
+    "FACT: More than 90 percent of homeless women are victims of severe physical or sexual abuse, and escaping that abuse is a leading cause of their homelessness.",
+    "FACT: A person is considered chronically homeless if he has either been continuously homeless for a year or more, or has had at least four episodes of homelessness in the past three years.",
+    "FACT: People recently released from prison and young adults who have recently been emancipated  from the foster care system are at increased risk of homelessness.",
+    "FACT: LGBTQ youths are one of the most vulnerable homeless populations.",
+    "FACT: Fifty percent of the homeless population is over the age of 50.",
+    "FACT: Homeless people suffer illnesses three to six times more than people who are not homeless do.",
+];
+      function update() {
+      var which = Math.floor(Math.random() * fortunes.length);
+      var randomFortune = fortunes[which];
+      document.getElementById('fortune').textContent= randomFortune;
+    }
+      
+      document.getElementById('fortune').onclick = update;
+      
+      update();
+  </script>
 	</body>
 </html>
