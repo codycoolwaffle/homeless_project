@@ -76,12 +76,12 @@ var fortunes = [
     "FACT: Homeless people suffer illnesses three to six times more than people who are not homeless do.",
 ];
       function update() {
-      var which = Math.floor(Math.random() * fortunes.length);
-      var randomFortune = fortunes[which];
-      document.getElementById('fortune').textContent=randomFortune;
+      var which = Math.floor( Math.random() * fortunes.length );
+      var randomFortune = fortunes[ which ];
+      document.getElementById( 'fortune' ).textContent=randomFortune;
     }
       
-      document.getElementById('fortune').onclick = update;
+      document.getElementById( 'fortune' ).onclick = update;
       
       update();
   </script>
