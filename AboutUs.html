@@ -68,9 +68,9 @@
 			{
 				namevalue = qq[i].split("=");
 				if(i < qq.length-1)
-					document.getElementByTagName("input")[i].value = namevalue[1]
+					document.getElementsByTagName("input")[i].value = namevalue[1]
 				else
-					document.getElementByTagName("textarea")[i] = namevalue[1]
+					document.getElementsByTagName("textarea")[i] = namevalue[1]
 				
 				if (namevalue[0] == "name" && namevalue[1] > 0) 
 				{
