@@ -28,7 +28,7 @@ a.button{font-size: 20px}
 .line{margin-left: 5px}
 a{text-decoration: none; color: darkturquoise}
 figure.logo{margin-top: 11.67px}
-#main li{list-style-type: none; margin-bottom: -8px}
+#main li{margin-bottom: -8px}
 #main p{margin-bottom: -32px; font-size: 20px}
 #main h1, #main h3{margin-bottom: -8px}
 h3{font-size: 28px}
